@@ -1,0 +1,42 @@
+总体框架模块
+
+    1. 加载配置
+            settings模块
+                settings.go
+                加载config.yaml文件
+                viper模块操作
+    2. 初始化日志
+            zap模块
+    3. 初始化MySQL连接
+            sqlx模块
+    4. 初始化Redis连接
+            go-redis/redis 模块
+    5. 注册路由
+            routes模块
+    6. 启动服务(优雅关机)
+            main文件中
+    7. controllers控制器
+            各方法处理处理逻辑
+    8. models
+            数据库模型定义
+    
+    信号捕获
+	// kill -2 发送 syscall.SIGINT 信号， 我们常用的Ctrl+C就是触发系统SIGINT信号
+	// kill -9 发送 syscall.SIGKILL 信号，但是不能被捕获， 所以不需要添加它
+	// signal.Notify 是吧收到的 syscall.SIGINT或syscall.SIGTERM 信号转发给quit
+
+
+
+echo "# gin_devstructure" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GZ-Alinx/gin_devstructure.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/GZ-Alinx/gin_devstructure.git
+git branch -M main
+git push -u origin main

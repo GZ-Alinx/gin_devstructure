@@ -1,0 +1,27 @@
+app:
+  name: "web_app"
+  mode: "dev"
+  port: 8000
+logs:
+  level: "debug"
+  logfilename: "webapp.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  mysqlhost: "127.0.0.1"
+  mysqlport: 3306
+  user: "root"
+  mysqlpassword: "88888888"
+  dbname: "devops"
+  max_open_conns: 2000
+  max_idle_conns: 50
+
+
+redis:
+  redishost: "192.168.56.120"
+  redisport: 6379
+  redispassword: "88888888"
+  db: 1
+  pool_size: 100
