@@ -19,6 +19,8 @@ type (
 		Mode       string `mapstructure:"mode"`
 		AppPort    int    `mapstructure:"port"`
 		ListenHost string `mapstructure:"listenhost"`
+		StartTime  string `mapstructure:"start_time"`
+		MachineID  int64  `mapstructure:"machine_id"`
 
 		*LogsConfig  `mapstructure:"logs"`
 		*MySQLConfig `mapstructure:"mysql"`
@@ -37,9 +39,9 @@ type (
 	MySQLConfig struct {
 		MySQLHost      string `mapstructure:"mysqlhost"`
 		MySQLPort      int    `mapstructure:"mysqlport"`
-		User           string `mapstructure:"user"`
-		Password       string `mapstructure:"mysqlpassword"`
-		Dbname         string `mapstructure:"dbname"`
+		MySQLUser      string `mapstructure:"user"`
+		MySQLPassword  string `mapstructure:"mysqlpassword"`
+		MySQLDbname    string `mapstructure:"dbname"`
 		Max_open_conns int    `mapstructure:"max_open_conns"`
 		Max_idle_conns int    `mapstructure:"max_idle_conns"`
 	}

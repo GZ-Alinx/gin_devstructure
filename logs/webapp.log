@@ -1,0 +1,80 @@
+{"level":"INFO","time":"2021-11-04T00:04:52.550+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T00:04:52.551+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"INFO","time":"2021-11-04T00:04:56.735+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0012094}
+{"level":"INFO","time":"2021-11-04T00:11:32.276+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T00:11:32.279+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}
+{"level":"INFO","time":"2021-11-04T00:11:33.823+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T00:11:33.824+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"INFO","time":"2021-11-04T00:11:39.615+0800","caller":"logger/logger.go:79","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"INFO","time":"2021-11-04T00:11:43.400+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T00:11:43.403+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}
+{"level":"INFO","time":"2021-11-04T00:11:45.271+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T00:11:45.272+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"INFO","time":"2021-11-04T00:11:54.305+0800","caller":"logger/logger.go:79","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"INFO","time":"2021-11-04T00:44:27.861+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T00:44:27.863+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}
+{"level":"INFO","time":"2021-11-04T01:04:48.081+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T01:04:48.082+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"INFO","time":"2021-11-04T01:04:56.081+0800","caller":"logger/logger.go:79","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"INFO","time":"2021-11-04T01:05:04.102+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"GET","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0009858}
+{"level":"INFO","time":"2021-11-04T01:05:19.064+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"GET","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"ERROR","time":"2021-11-04T01:05:29.107+0800","caller":"controller/user.go:73","msg":"service.login failed,err:","username:":"李雄","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-11-04T01:05:29.107+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0018368}
+{"level":"ERROR","time":"2021-11-04T01:05:41.597+0800","caller":"controller/user.go:73","msg":"service.login failed,err:","username:":"李雄","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-11-04T01:05:41.597+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0009103}
+{"level":"ERROR","time":"2021-11-04T01:06:19.075+0800","caller":"controller/user.go:73","msg":"service.login failed,err:","username:":"李雄","error":"用户名或密码错误"}
+{"level":"INFO","time":"2021-11-04T01:06:19.075+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0007628}
+{"level":"ERROR","time":"2021-11-04T01:06:46.875+0800","caller":"controller/user.go:73","msg":"service.login failed,err:","username:":"李雄","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-11-04T01:06:46.875+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0010466}
+{"level":"INFO","time":"2021-11-04T01:09:40.527+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T01:09:40.528+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}
+{"level":"INFO","time":"2021-11-04T01:09:43.551+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T01:09:43.553+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"ERROR","time":"2021-11-04T01:10:40.125+0800","caller":"controller/user.go:22","msg":"\nSignup with invalid param,err: ","error":"invalid character '\"' after object key:value pair"}
+{"level":"INFO","time":"2021-11-04T01:10:40.126+0800","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0010208}
+{"level":"ERROR","time":"2021-11-04T01:10:51.970+0800","caller":"controller/user.go:22","msg":"\nSignup with invalid param,err: ","error":"invalid character '\"' after object key:value pair"}
+{"level":"INFO","time":"2021-11-04T01:10:51.970+0800","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0003692}
+{"level":"ERROR","time":"2021-11-04T01:11:11.135+0800","caller":"controller/user.go:22","msg":"\nSignup with invalid param,err: ","error":"invalid character '\"' after object key:value pair"}
+{"level":"INFO","time":"2021-11-04T01:11:11.136+0800","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0007678}
+{"level":"ERROR","time":"2021-11-04T01:14:31.430+0800","caller":"controller/user.go:22","msg":"\nSignup with invalid param,err: ","error":"EOF"}
+{"level":"INFO","time":"2021-11-04T01:14:31.430+0800","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0003097}
+{"level":"INFO","time":"2021-11-04T01:15:18.502+0800","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0166433}
+{"level":"ERROR","time":"2021-11-04T01:15:35.815+0800","caller":"controller/user.go:57","msg":"Login with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2021-11-04T01:15:35.815+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0001882}
+{"level":"ERROR","time":"2021-11-04T01:15:41.692+0800","caller":"controller/user.go:73","msg":"service.login failed,err:","username:":"alinx","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-11-04T01:15:41.692+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.001147}
+{"level":"ERROR","time":"2021-11-04T01:17:47.736+0800","caller":"controller/user.go:73","msg":"service.login failed,err:","username:":"alinx","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-11-04T01:17:47.737+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0017006}
+{"level":"INFO","time":"2021-11-04T01:20:24.069+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T01:20:24.070+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}
+{"level":"INFO","time":"2021-11-04T01:20:33.088+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T01:20:33.088+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"ERROR","time":"2021-11-04T01:20:36.409+0800","caller":"controller/user.go:73","msg":"service.login failed,err:","username:":"alinx","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-11-04T01:20:36.409+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0014983}
+{"level":"INFO","time":"2021-11-04T01:21:55.204+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T01:21:55.207+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}
+{"level":"INFO","time":"2021-11-04T01:21:56.833+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T01:21:56.833+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"ERROR","time":"2021-11-04T01:22:00.221+0800","caller":"controller/user.go:73","msg":"service.login failed,err:","username:":"alinx","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-11-04T01:22:00.221+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0017351}
+{"level":"INFO","time":"2021-11-04T01:22:51.558+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T01:22:51.560+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}
+{"level":"INFO","time":"2021-11-04T01:22:53.284+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T01:22:53.285+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"INFO","time":"2021-11-04T01:22:56.159+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0022566}
+{"level":"INFO","time":"2021-11-04T01:29:38.785+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T01:29:38.785+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}
+{"level":"INFO","time":"2021-11-04T01:29:40.393+0800","caller":"logger/logger.go:46","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-11-04T01:29:40.393+0800","caller":"gin_devstructure-master/main.go:44","msg":"Logger load success ..."}
+{"level":"INFO","time":"2021-11-04T01:29:43.032+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0013548}
+{"level":"INFO","time":"2021-11-04T01:29:44.195+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0015456}
+{"level":"INFO","time":"2021-11-04T01:29:44.896+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0013468}
+{"level":"INFO","time":"2021-11-04T01:29:45.486+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0013554}
+{"level":"INFO","time":"2021-11-04T01:29:46.071+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0007716}
+{"level":"INFO","time":"2021-11-04T01:29:46.666+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0018961}
+{"level":"INFO","time":"2021-11-04T01:29:47.248+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0010318}
+{"level":"INFO","time":"2021-11-04T01:29:47.769+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0011352}
+{"level":"INFO","time":"2021-11-04T01:29:48.255+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0013269}
+{"level":"INFO","time":"2021-11-04T01:29:48.719+0800","caller":"logger/logger.go:79","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0010083}
+{"level":"INFO","time":"2021-11-04T01:29:58.193+0800","caller":"gin_devstructure-master/main.go:97","msg":"shutdown Server ..."}
+{"level":"INFO","time":"2021-11-04T01:29:58.195+0800","caller":"gin_devstructure-master/main.go:107","msg":"Server Exiting"}

@@ -4,9 +4,11 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"gin_web/dao/mysql"
+	"gin_web/controller"
+	"gin_web/dao/mysqls"
 	"gin_web/dao/redis"
 	"gin_web/logger"
+	"gin_web/pkg/snowflake"
 	"gin_web/routes"
 	"gin_web/settings"
 	"net/http"
@@ -35,7 +37,7 @@ func main() {
 
 	// 初始化日志
 	defer zap.L().Sync() // 将缓冲区的日志追加到日志文件中
-	if err := logger.Init(settings.Conf.LogsConfig); err != nil {
+	if err := logger.Init(settings.Conf.LogsConfig, settings.Conf.Mode); err != nil {
 		fmt.Printf("init logger failed, err : %v \n", err)
 		return
 	}
@@ -43,26 +45,38 @@ func main() {
 	config = append(config, "Logger loads success ...")
 
 	// 初始化MySQL连接
-	defer mysql.Close()
-	if err := mysql.Init(settings.Conf.MySQLConfig); err != nil {
+	if err := mysqls.Init(settings.Conf.MySQLConfig); err != nil {
 		fmt.Printf("init mysql failed, err : %v \n", err)
 		return
 	}
+	defer mysqls.Close()
 	config = append(config, "MySQL loads success ...")
 
 	// 初始化Redis连接
-	defer redis.Close()
 	if err := redis.Init(settings.Conf.RedisConfig); err != nil {
 		fmt.Printf("init redis failed, err : %v \n", err)
 		return
 	}
+	defer mysqls.Close()
 	config = append(config, "Redis loads success ...")
 
+	// 通过雪花算法获取用户ID
+	if err := snowflake.Init(settings.Conf.StartTime, settings.Conf.MachineID); err != nil {
+		fmt.Printf("init snowflake failed, err:%v\n", err)
+		return
+	}
+
 	// 注册路由
-	r := routes.Setup()
+	r := routes.Setup(settings.Conf.Mode)
 	config = append(config, "Router loads success ...")
 	for _, v := range config {
 		fmt.Println(v)
+	}
+
+	// 初始化gin框架内置校验器使用的翻译器
+	if err := controller.InitTrans("zh"); err != nil {
+		fmt.Println("init validator trans failed , err ", err)
+		return
 	}
 
 	// 启动服务(优雅关机)
