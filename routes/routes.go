@@ -3,6 +3,7 @@ package routes
 import (
 	"gin_web/controller"
 	"gin_web/logger"
+	"gin_web/middlewares"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -25,19 +26,10 @@ func Setup(mode string) *gin.Engine {
 	r.POST("/login", controller.LoginHandler)
 
 	// 登录后才能进行访问的资源
-	r.GET("/ping", func(c *gin.Context) {
+	r.GET("/ping", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
 		// 如果是登录的用户，潘丹请求头中是否有 有效的JWT数据
 		// 客户端三种方式携带token： 1.放在请求头 2. 放在请求体 3.放在URL
-		// 可以写一个中间件来实现
-		isLogin := true
-		if isLogin {
-			// 如果是登录的用户，返回pong
-			c.String(http.StatusOK, "pong")
-		} else {
-			// 否则就提示登录
-			c.String(http.StatusOK, "请登录")
-		}
-
+		c.String(http.StatusOK, "pong")
 	})
 
 	// 404配置

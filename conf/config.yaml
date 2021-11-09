@@ -27,6 +27,6 @@ mysql:
 redis:
   redishost: "192.168.56.120"
   redisport: 6379
-  redispassword: "88888888"
+  redispassword: "adl1314520"
   db: 1
   pool_size: 100
